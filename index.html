@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+    
+    
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+   
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">ClassifyImage</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h2 class="cover-heading">Upload Imagem.</h2>
+        <div class="row">
+          <div class="col-8">
+            <input type="file" name="file" id="file-chooser">
+          </div>
+          <div class="col-4">
+            <img id="img" height=227/>
+            <div id="console"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Developer Rodrigo Macedo <a href="https://getbootstrap.com/"></a>, - <a href="https://www.linkedin.com/in/rodrigomacedodev">Linkedin</a></p>
+        </div>
+      </footer>
+    </div>
+  	
+
+    <!-- Load index.js after the content of the page -->
+    <script src="js/upload.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
