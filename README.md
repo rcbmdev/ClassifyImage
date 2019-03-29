@@ -22,3 +22,7 @@ python -m http.server
 ```
 
 Depois, basta abrir o endereço que o servidor gerou no browser e realizar os testes. ;)
+
+Segue uma demonstração da Aplicação:
+
+![](Classification.gif)
